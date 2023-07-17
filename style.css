@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact-section {
+  /*
+    1. Relative path (internal resource)
+    2. Absolute path (external resource - outside project)
+  */
+  background-image: url(./resources/images/bg-masthead.jpg);
+  background-position: center;
+  aspect-ratio: 25/16;
+}
+
+@media screen and (min-width: 992px) {
+  .contact input {
+    min-width: 800px;
+  }
+}
+
+.background {
+  height: 400px;
+}
+
+.mainfeatures {
+  text-align: center;
+}
+
+.bgs1 {
+  background-image: url(./resources/images/bg-showcase-1.jpg);
+  background-position: center;
+  aspect-ratio: 900/601;
+}
+
+.bgs2 {
+  background-image: url(./resources/images/bg-showcase-2.jpg);
+  background-position: center;
+  aspect-ratio: 3/2;
+}
+
+.bgs3 {
+  background-image: url(./resources/images/bg-showcase-3.jpg);
+  background-position: center;
+  aspect-ratio: 45/32;
+}
+
+.rvh {
+  text-align: center;
+}
+
+.t1div {
+  text-align: center;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex: 1 1 0px;
+}
+
+.itemwidth {
+  flex: 1;
+}
+
+.testimo1 {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./resources/images/testimonials-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.testimo2 {
+  border-radius: 50%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./resources/images/testimonials-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 1/1;
+}
+
+.testimo3 {
+  border-radius: 50%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./resources/images/testimonials-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  aspect-ratio: 1/1;
+}
+
+.footnav {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+  .footnav {
+    flex-direction: row;
+  }
+}

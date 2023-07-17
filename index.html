@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2bfa3db412.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>CSS-FW.M.A101</title>
+</head>
+<body>
+  <header class="container">
+    <!-- mobile-first: default - mobile, having breakpoints: bigger screen (tablet, desktop) -->
+    <div class="d-flex justify-content-between py-2 py-lg-3">
+      <h2>Start bootstrap</h2>
+      <button type="button" class="btn btn-primary">Sign in</button>
+    </div>
+  </header>
+
+  <section class="contact-section text-center d-flex align-items-center py-5">
+    <div class="container">
+      <div>
+        <p class="text-white h1 mb-5">
+          Building a landing page for your business or project and generate more leads!
+        </p>
+        <form class="contact d-flex gap-2 justify-content-center flex-column flex-lg-row">
+          <input type="email" name="email" id="email" class="form-control">
+          <button class="btn btn-primary">Sign up!</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="mainfeatures d-flex gap-5 py-5 px-5 justify-content-center flex-column flex-lg-row">
+    <div>
+      <i class="sls text-primary fa-solid fa-desktop fa-3x mb-3 mx-auto"></i>
+      <h3>Fully Responsive</h3>
+      <p>This theme will look great on any device, no matter the size!</p>
+    </div>
+    <div>
+      <i class="sls text-primary fa-solid fa-layer-group fa-3x mb-3 mx-auto"></i>
+      <h3>Bootstrap 4 Ready</h3>
+      <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
+    </div>
+    <div>
+      <i class="sls text-primary fa-regular fa-circle-check fa-3x mb-3 mx-auto"></i>
+      <h3>Easy to Use</h3>
+      <p>Ready to use with your content, or customize the source files!</p>
+    </div>
+  </div>
+
+  <div class="features container">
+    <!-- <div class="d-flex flex-column flex-lg-row-reverse"> -->
+    <div class="row">
+      <div class="col-sm-6 background bgs1"></div>
+      <div class="col-sm-6">
+        <h3>Fully Responsive Design</h3>
+        <p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave respnsively</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 background bgs2"></div>
+      <div class="col-sm-6">
+        <h3>Updated For Bootstrap 4</h3>
+        <p>Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 background bgs3"></div>
+      <div class="col-sm-6">
+        <h3>Easy to Use & Customize</h3>
+        <p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="review">
+    <h3 class="rvh py-5">What people are saying...</h3>
+    <div class="t1div gap-5 d-flex justify-content-center flex-column flex-lg-row">
+      <div class="itemwidth">
+        <div class="testimo1"></div>
+        <h5>Margaret E.</h5>
+        <p>"This is fantastic! Thanks so much guys"</p>
+      </div>
+      <div class="itemwidth">
+        <div class="testimo2"></div>
+        <h5>Fred S.</h5>
+        <p>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+      </div>
+      <div class="itemwidth">
+        <div class="testimo3"></div>
+        <h5>Sarah W.</h5>
+        <p>"Thanks so much for making these free resources available to us!"</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="contact-section text-center d-flex align-items-center py-5">
+    <div class="container">
+      <div>
+        <p class="text-white h1 mb-5">
+          Ready to get started? Sign up now!
+        </p>
+        <form class="contact d-flex gap-2 justify-content-center flex-column flex-lg-row">
+          <input type="email" name="email" id="email" class="form-control">
+          <button class="btn btn-primary">Sign up!</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footnav">
+      <div>
+        <div class="left-top d-flex justify-content-center gap-2 text-primary mt-3">
+          <div><h6>About</h6></div>
+          <div><h6>Contact</h6></div>
+          <div><h6>Terms of Use</h6></div>
+          <div><h6>Privacy Policy</h6></div>
+        </div>
+        <div><i class="fa-regular fa-copyright"></i> Your Website 2019. All Rights Reserved.</div>
+      </div>
+      <div class="my-4 mx-4">
+        <i class="fa-brands fa-facebook fa-2x gap-3"></i>
+        <i class="fa-brands fa-square-twitter fa-2x gap-3"></i>
+        <i class="fa-brands fa-instagram fa-2x gap-3"></i>
+      </div>
+    </div>
+    
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
